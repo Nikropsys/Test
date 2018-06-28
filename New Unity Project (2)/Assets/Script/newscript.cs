@@ -2,17 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class newscript : MonoBehaviour {
+public class newscript : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    // Use this for initialization
+    void Start()
+    {
+        Metod2();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 
 
     void Metod1()
@@ -21,6 +24,7 @@ public class newscript : MonoBehaviour {
     }
     void Metod2()
     {
+        Debug.Log("Hello", null);
 
     }
 }
